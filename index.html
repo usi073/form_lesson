@@ -19,7 +19,7 @@
               <a class="button facebook is-fullwidth">Facebookでスタート</a>
             </div>
             <div class="column is-halfwidth">
-              <a class="button google is-fullwidth">googleでスタート</a>
+              <a class="button google is-fullwidth">Googleでスタート</a>
             </div>
           </div>
           <p class="supplement-text defaultText">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
@@ -35,7 +35,7 @@
                     ※
                   </span>
                 </p>
-                <input type="text" class="input-area input-init"></input>
+                <input type="text" class="input-area input-init" required></input>
               </div>
               <div class="name is-halfwidth">
                 <p class="label-text">
@@ -44,7 +44,7 @@
                     ※
                   </span>
                 </p>
-                <input type="text" class="input-area input-init"></input>
+                <input type="text" class="input-area input-init" required></input>
               </div>
             </div>
             <div class="gender null">
@@ -53,13 +53,13 @@
                 <label class="gender-content">
                   <input type="radio" name="sex" value="male" class="gender-input">
                   <span>
-                    男
+                    男性
                   </span>
                 </label>
                 <label class="gender-content">
                   <input type="radio" name="sex" value="female" class="gender-input">
                   <span>
-                    女
+                    女性
                   </span>
                 </label>
                 <label class="gender-content">
@@ -72,7 +72,7 @@
             </div>
             <div class="origin-serect null">
               <p class="label-text">出身</p>
-              <div class="select-area">
+              <div class="select-area is-halfwidth">
                 <select name="origin" class="input-area input-init">
                   <option value="東京">東京</option>
                   <option value="千葉">千葉</option>
@@ -88,7 +88,7 @@
                   ※
                 </span>
               </p>
-              <input type="email" class="input-area input-init" name="email" placeholder="ex) hoge@examle.com">
+              <input type="email" class="input-area input-init" name="email" placeholder="ex) hoge@example.com" required>
             </div>
             <div class="tel null">
               <p class="label-text">電話番号</p>
@@ -101,7 +101,7 @@
                   ※
                 </span>
               </p>
-              <input type="password" class="input-area input-init" name="password">
+              <input type="password" class="input-area input-init" name="password" required>
             </div>
             <div class="password null">
               <p class="label-text">
@@ -110,7 +110,7 @@
                   ※
                 </span>
               </p>
-              <input type="password" class="input-area input-init" name="password">
+              <input type="password" class="input-area input-init" name="password" required>
             </div>
             <div class="course null">
               <p class="label-text">希望コース</p>
@@ -134,19 +134,12 @@
             <div class="send-button null">
               <input type="submit" name="submit" value="アカウント作成" class="button submitbtn   input-init is-fullwidth">
             </div>  
-            <p class="consent">アカウントを作成することにより、
-              <a href class="link">利用規約</a>
-              と
-              <a href class="link">プライバシーポリシー</a>
-              に同意するものとします。
-            </p>
+            <p class="consent">アカウントを作成することにより、<a href class="link">利用規約</a>と<a href class="link">プライバシーポリシー</a>に同意するものとします。</p>
           </form>
         </div>
         <div class="footer">
-          <p class="footer-text">すでにアカウントをお持ちですか
-            <a class="link">ログイン</a>
-          </p>
-          <a class="link footer-text">認証メールが届きませんか？</a>
+          <p class="footer-text">すでにアカウントをお持ちですか<a href="#" class="footer-link">ログイン</a></p>
+          <a href="#" class="footer-link footer-text">認証メールが届きませんか？</a>
         </div>
       </div>
     </section>
