@@ -277,6 +277,10 @@
   background-color: #01bfbd;
 }
 
+.submitbtn:hover {
+  background-color: #01a6a4;
+}
+
 .submitbtn:active {
   background-color: #fff;
   color: #01a6a4;
